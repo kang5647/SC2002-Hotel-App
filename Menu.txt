@@ -1,0 +1,6 @@
+Broccoli,5.49,This is cooked with a pot
+Mac n Cheese,9.99,not so cheesy
+Strip Steak,22.1,Meat from the cow
+Coke,1.99,Better than Mc'Donald Coke
+Icecream,1.0,I SCREAMMMMMMMMM!
+Protein Shake,19.0,Made of real protein 

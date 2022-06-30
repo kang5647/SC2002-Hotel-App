@@ -14,3 +14,9 @@ We implements Model-View-Controller framework into our project. Each object cons
 
 
 ### Database 
+As of the requirement of this project, instead of using database application (MySQL, MS Access, etc.), we use text file to store data. There are 5 text files in this project to store different type of data, namely: 
+1. **[Guest.txt](Guest.txt)** _stores_ **name**, **address**, **nationality**, **phone number**, **gender**, **credit card number**, **card owner**, **expiry date**, **security code**, **card type**, **ID number**,and **ID type**
+2. **[Menu.txt](Menu.txt)** _stores_ **menu item**, **price**, and **details**
+3. **[Reservation.txt](Reservation.txt)** _stores_ **reservation code**, **check-in date**, **check-out date**, **number of adults**, **number of children**, **status**, **discount**, **guest's ID number**
+4. **[RoomOrder.txt](RoomOrder.txt)** _stores_ **order ID**, **total amount**, **status**, **remarks**, **date**, and list of **ordered items**
+5. **[Rooms.txt](Rooms.txt)** _stores_ **room number**, **floor number**, **unit number**, **rate**, **weekend rate**, **wifi(True/False)**, **smoke(True/False)**, **balcony(True/False)**, **window facing description**, **room type**, **bed type**, and **status**.

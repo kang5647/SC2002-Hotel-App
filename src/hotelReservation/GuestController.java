@@ -160,6 +160,9 @@ public class GuestController {
         newGuest.updateIdentity(idNumber, identityType);
         eg.setGuest(newGuest);
         eg.addRecord("Guest.txt");
+        hotel.addGuests(newGuest);
+        System.out.println("Guest successfully added to the system.\n");
+        newGuest.printString();
         return newGuest; 
     }
 

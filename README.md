@@ -10,31 +10,40 @@ We develop the hotel application using the **Model-View-Controller(MVC)** framew
 \
 \
 The **main object**, **[Hotel](src/hotelReservation/Hotel.java)** holds the other **5** key objects which make up the full app. They are: 
-1. **[Guest](src/hotelReservation/Guests.java)** - **[GuestController.java](src/hotelReservation/GuestController.java)**, **[CreditCard.java](src/hotelReservation/CreditCard.java)**, **[Identity.java](src/hotelReservation/Identity.java)**
+1. **[Guest](src/hotelReservation/Guests.java)** - **[CreditCard.java](src/hotelReservation/CreditCard.java)**, **[Identity.java](src/hotelReservation/Identity.java)**
+\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_Controller_) **[GuestController.java](src/hotelReservation/GuestController.java)**
 \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_File I/O_) **[EditFileGuest.java](src/hotelReservation/EditFileGuest.java)**, 
 \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_ENUM_) **[GENDERTYPE.java](src/hotelReservation/GENDERTYPE.java)**, **[TYPEOFID.java](src/hotelReservation/TYPEOFID.java)**, **[TYPEOFCARD.java](src/hotelReservation/TYPEOFCARD.java)**
 
-2. **[Room](src/hotelResevation/Rooms.java)** - **[RoomController.java](src/hotelReservation/RoomController.java)**
+2. **[Room](src/hotelResevation/Rooms.java)** - (_Controller_) **[RoomController.java](src/hotelReservation/RoomController.java)**
 \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_File I/O_) **[EditFileRoom.java](src/hotelReservation/EditFileRoom.java)**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_File I/O_) **[EditFileRoom.java](src/hotelReservation/EditFileRoom.java)**
 \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_ENUM_) **[BEDTYPE.java](src/hotelReservation/BEDTYPE.java)**, **[ROOMTYPE.java](src/hotelReservation/ROOMTYPE.java)**,  **[ROOMSTATUS.java](src/hotelReservation/ROOMSTATUS.java)**
-3. **[Reservation](src/hotelReservation/Reservation.java)** - **[ReservationController.java](src/hotelReservation/ReservationController.java)** 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_ENUM_) **[BEDTYPE.java](src/hotelReservation/BEDTYPE.java)**, **[ROOMTYPE.java](src/hotelReservation/ROOMTYPE.java)**,  **[ROOMSTATUS.java](src/hotelReservation/ROOMSTATUS.java)**
+3. **[Reservation](src/hotelReservation/Reservation.java)** - (_Controller_) **[ReservationController.java](src/hotelReservation/ReservationController.java)** 
 \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_File I/O_) **[EditFileReservation.java](src/hotelReservation/EditFileReservation.java)** 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_File I/O_) **[EditFileReservation.java](src/hotelReservation/EditFileReservation.java)** 
 \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_ENUM_) **[RESERVATIONSTATUS.java](src/hotelReservation/RESERVATIONSTATUS.java)**
-4. **[Menu](src/hotelReservation/Menu.java)** - **[MenuController.java](src/hotelReservation/MenuControlle.java)**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_ENUM_) **[RESERVATIONSTATUS.java](src/hotelReservation/RESERVATIONSTATUS.java)**
+4. **[Menu](src/hotelReservation/Menu.java)** - (_Controller_) **[MenuController.java](src/hotelReservation/MenuControlle.java)**
 \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_File I/O_) **[EditFileMenu.java](src/hotelReservation/EditFileMenu.java)**
-5. **[Room Service](src/hotelReservation/RoomServiceOrder.java)** - **[RoomServiceController.java](src/hotelReservation/RoomServiceController.java)**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_File I/O_) **[EditFileMenu.java](src/hotelReservation/EditFileMenu.java)**
+5. **[Room Service](src/hotelReservation/RoomServiceOrder.java)** - (_Controller_) **[RoomServiceController.java](src/hotelReservation/RoomServiceController.java)**
 \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_File I/O_) **[EditFileRSO.java](src/hotelReservation/EditFileRSO.java)**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_File I/O_) **[EditFileRSO.java](src/hotelReservation/EditFileRSO.java)**
 \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_ENUM_) **[ORDERSTATUS.java](src/hotelReservation/ORDERSTATUS.java)**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_ENUM_) **[ORDERSTATUS.java](src/hotelReservation/ORDERSTATUS.java)**
 
+### Utility Classes
+In addition to the main classes and their controllers, we have also created several utility classes to facilitate **information exchange** between classes:
+1. Bill.java - To hold attributes of the bill 
+2. CheckDateUtility.java
+3. CheckInController.java
+4. CheckOutController.java
+5. PrinterController.java
 
 
 ### Database 

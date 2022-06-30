@@ -28,7 +28,7 @@ The **main object**, **[Hotel](src/hotelReservation/Hotel.java)** holds the othe
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_File I/O_) **[EditFileReservation.java](src/hotelReservation/EditFileReservation.java)** 
 \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_ENUM_) **[RESERVATIONSTATUS.java](src/hotelReservation/RESERVATIONSTATUS.java)**
-4. **[Menu](src/hotelReservation/Menu.java)** - (_Controller_) **[MenuController.java](src/hotelReservation/MenuControlle.java)**
+4. **[Menu](src/hotelReservation/Menu.java)** - (_Controller_) **[MenuController.java](src/hotelReservation/MenuController.java)**
 \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(_File I/O_) **[EditFileMenu.java](src/hotelReservation/EditFileMenu.java)**
 5. **[Room Service](src/hotelReservation/RoomServiceOrder.java)** - (_Controller_) **[RoomServiceController.java](src/hotelReservation/RoomServiceController.java)**

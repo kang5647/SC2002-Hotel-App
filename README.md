@@ -1,6 +1,6 @@
 # SC2002-Hotel-App
 ## About 
-This is an assignment for SC2002 (Object-Oriented Design & Programming) which is about applying Object-Oriented (OO) concepts to the development of the Hotel Reservation and Payment System (HRPS). It is used by hotel staff to **manage guests information**, **update room status**, **make reservations for guests**, **update room service menu items**, and **take room service orders from guests**.
+This is a **Java-based assignment** for SC2002 (Object-Oriented Design & Programming) about applying Object-Oriented (OO) concepts to the development of the Hotel Reservation and Payment System (HRPS). It is used by hotel staff to **manage guests information**, **update room status**, **make reservations for guests**, **update room service menu items**, and **take room service orders from guests**.
 \
 \
 We develop the hotel application using the **Model-View-Controller(MVC)** framework. Each object consists of its own **class** and a corresponding **_controller_*** class which handles user interaction and renders view to the user.
@@ -55,3 +55,7 @@ As of the requirement of this project, instead of using database application (My
 5. **[Rooms.txt](Rooms.txt)** _stores_ **room number**, **floor number**, **unit number**, **rate**, **weekend rate**, **wifi(True/False)**, **smoke(True/False)**, **balcony(True/False)**, **window facing description**, **room type**, **bed type**, and **status**.
 
 ### Design Consideration 
+1. For simplicity, we have set constraint for check-in time such that guests are allowed to check in **no later than 1 hour** after the **stipulated check-in time** (_3p.m._). Otherwise, the reservation will expire. 
+2. If it has past the check-in time, guests can only check in as a **walk-in customer**, in which case the hotel staff will set the reservation status as "**Checked In**". 
+
+### Sneak Peak 

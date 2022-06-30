@@ -53,3 +53,5 @@ As of the requirement of this project, instead of using database application (My
 3. **[Reservation.txt](Reservation.txt)** _stores_ **reservation code**, **check-in date**, **check-out date**, **number of adults**, **number of children**, **status**, **discount**, **guest's ID number**
 4. **[RoomOrder.txt](RoomOrder.txt)** _stores_ **order ID**, **total amount**, **status**, **remarks**, **date**, and list of **ordered items**
 5. **[Rooms.txt](Rooms.txt)** _stores_ **room number**, **floor number**, **unit number**, **rate**, **weekend rate**, **wifi(True/False)**, **smoke(True/False)**, **balcony(True/False)**, **window facing description**, **room type**, **bed type**, and **status**.
+
+### Design Consideration 

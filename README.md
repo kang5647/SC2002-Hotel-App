@@ -59,3 +59,13 @@ As of the requirement of this project, instead of using database application (My
 2. If it has past the check-in time, guests can only check in as a **walk-in customer**, in which case the hotel staff will set the reservation status as "**Checked In**". 
 
 ### Sneak Peak 
+1. Adding new guest to the system
+<img src="pic/addguest.jpg" width="700" height = "500">
+2. Making new reservation 
+<img src="pic/makingReservation.jpg" width="700" height = "500">
+3. Menu 
+<img src="pic/menu.jpg" width="500" height = "300">
+4. Order room service 
+<img src="pic/roomService.jpg" width="600" height = "600">
+5. Check out and make payment 
+<img src="pic/checkout.jpg" width="600" height = "600">

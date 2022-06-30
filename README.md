@@ -62,9 +62,9 @@ As of the requirement of this project, instead of using database application (My
 1. Adding new guest to the system
 <img src="pic/addguest.jpg" width="700" height = "500">
 2. Making new reservation 
-<img src="pic/makingReservation.jpg" width="700" height = "500">
+<img src="pic/makingReservation.jpg" width="800" height = "700">
 3. Menu 
-<img src="pic/menu.jpg" width="500" height = "300">
+<img src="pic/menu.jpg" width="500" height = "500">
 4. Order room service 
 <img src="pic/roomService.jpg" width="600" height = "600">
 5. Check out and make payment 

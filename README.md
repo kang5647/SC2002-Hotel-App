@@ -54,11 +54,11 @@ As of the requirement of this project, instead of using database application (My
 4. **[RoomOrder.txt](RoomOrder.txt)** _stores_ **order ID**, **total amount**, **status**, **remarks**, **date**, and list of **ordered items**
 5. **[Rooms.txt](Rooms.txt)** _stores_ **room number**, **floor number**, **unit number**, **rate**, **weekend rate**, **wifi(True/False)**, **smoke(True/False)**, **balcony(True/False)**, **window facing description**, **room type**, **bed type**, and **status**.
 
-### Design Consideration 
+## Design Consideration 
 1. For simplicity, we have set constraint for check-in time such that guests are allowed to check in **no later than 1 hour** after the **stipulated check-in time** (_3p.m._). Otherwise, the reservation will expire. 
 2. If it has past the check-in time, guests can only check in as a **walk-in customer**, in which case the hotel staff will set the reservation status as "**Checked In**". 
 
-### Sneak Peak 
+## Sneak Peak 
 1. Adding new guest to the system
 <img src="pic/addguest.jpg" width="700" height = "500">
 2. Making new reservation 

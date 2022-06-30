@@ -1,4 +1,6 @@
 # SC2002-Hotel-App
+<img src="pic/main.jpg" width="300" height = "200">
+
 ## About 
 This is a **Java-based assignment** for SC2002 (Object-Oriented Design & Programming) about applying Object-Oriented (OO) concepts to the development of the Hotel Reservation and Payment System (HRPS). It is used by hotel staff to **manage guests information**, **update room status**, **make reservations for guests**, **update room service menu items**, and **take room service orders from guests**.
 \

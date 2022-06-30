@@ -19,6 +19,7 @@ public class MainApp {
         MenuController MenuControl = new MenuController(FiveGuys);
         boolean run = true;
         while (run) {
+            System.out.println("Welcome to Five Guys Hotel! \n");
             System.out.println("Make a choice");
             System.out.println("1. Reservation");
             System.out.println("2. Guest");

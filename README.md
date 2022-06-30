@@ -39,11 +39,11 @@ The **main object**, **[Hotel](src/hotelReservation/Hotel.java)** holds the othe
 
 ### Utility Classes
 In addition to the main classes and their controllers, we have also created several utility classes to facilitate **information exchange** between classes:
-1. Bill.java - To hold attributes of the bill 
-2. CheckDateUtility.java
-3. CheckInController.java
-4. CheckOutController.java
-5. PrinterController.java
+1. **[Bill.java](src/hotelReservation/Bill.java)** - Object class to hold **attributes** of the bill upon checkout
+2. **[CheckDateUtility.java](src/hotelReservation/CheckDateUtility.java)** - To check if the check-in/check-out date **crashes** with any date of the existing reservations
+3. **[CheckInController.java](src/hotelReservation/CheckInController.java)** - **Check-in** controller
+4. **[CheckOutController.java](src/hotelReservation/CheckOutController.java)** - **Check-out** controller
+5. **[PrinterController.java](src/hotelReservation/PrinterController.java)** - To print **room status**, **room occupancy rate** by room type, and **reservations** by room 
 
 
 ### Database 

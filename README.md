@@ -71,3 +71,10 @@ As of the requirement of this project, instead of using database application (My
 <img src="pic/roomService.jpg" width="600" height = "600">
 5. Check out and make payment 
 <img src="pic/checkout.jpg" width="600" height = "600">
+
+## Contributors 
+1. POON WEI KANG @kang5647
+2. LEE ZI HAN @zihan15
+3. ZHANG JING WEN @pebblepaw
+4. CHEN ZIHANG @calebczh
+5. CAI DU YI @Duyi00

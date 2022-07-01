@@ -49,7 +49,7 @@ In addition to the main classes and their controllers, we have also created seve
 
 
 ### Database 
-As of the requirement of this project, instead of using database application (MySQL, MS Access, etc.), we use text file to store data. There are 5 **text files** in this project to store different type of data, namely: 
+As of the requirement of this project, instead of using database application (MySQL, MS Access, etc.), we use **text file** to store data. There are 5 **text files** in this project to store different type of data, namely: 
 1. **[Guest.txt](Guest.txt)** _stores_ **name**, **address**, **nationality**, **phone number**, **gender**, **credit card number**, **card owner**, **expiry date**, **security code**, **card type**, **ID number**,and **ID type**
 2. **[Menu.txt](Menu.txt)** _stores_ **menu item**, **price**, and **details**
 3. **[Reservation.txt](Reservation.txt)** _stores_ **reservation code**, **check-in date**, **check-out date**, **number of adults**, **number of children**, **status**, **discount**, **guest's ID number**
